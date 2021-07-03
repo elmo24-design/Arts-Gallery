@@ -121,9 +121,14 @@ export default {
    .signInHeading.theme--dark{
       color: white;
    }
-    .logo{
-      width: 8.5rem;
-      margin-left: 7.4rem;
+   .logo{
+      width: 8rem;
+      margin-left: 8rem;
       margin-top: -4rem;
+   }
+   @media(max-width: 400px){
+      .logo{
+         margin-left: 5.8rem;
+      }
    }
 </style>
